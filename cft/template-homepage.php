@@ -6,14 +6,25 @@
 * @since Twenty Fourteen 1.0
 */
 get_header() ?>
+<!-- Banner Section -->
+<section class="banner-section" style="text-align: center;">
+    <div class="container-fluid" style="background-image: url('http://localhost/jobsfungi/wp-content/uploads/2024/05/How-GoWithFund-Works-1.jpg'); background-size: fit; height: 80px;">
+        <div class="column">
+            <div class="col-12">
+                <h1 class="display-4" style="color: white; padding-top: 80px;">Welcome to Jobs in Europe</h1>
+            </div>
+        </div>
+    </div>
+</section>
 <section style="text-align: center;">
-	<div class="container-fluid" style="background: #FFFFF; height: 170px;">
-		<div class="column">
-			<div class="col-12">
-				<h1 class="display-4">Jobs in Europe</h1>
-			</div>
-		</div>
-	</div>
+    <div class="container-fluid" style="background: #FFFFF; height: 80px;">
+        <div class="column">
+            <div class="col-12">
+            <h6 class="display-4" style="color:blue;">"Welcome to Your European Career Portal"</h6>
+               
+            </div>
+        </div>
+    </div>
 </section>
 
     <div class="feature-posts">
