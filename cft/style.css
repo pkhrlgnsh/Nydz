@@ -11552,15 +11552,15 @@ textarea.form-control {
 
 ::-webkit-scrollbar {
   width: 10px;
-  background: #fff;
+  background: #123;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #acf3e2;
+  background: #123;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #33A2FF;
+  background: #133;
 }
 
 .table.v-align-center th, .table.v-align-center td {
