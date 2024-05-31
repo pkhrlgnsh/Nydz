@@ -11781,3 +11781,46 @@ section .section-secondary-title {
   display: block !important;
 }
 
+/* Container for the form */
+.wpcf7-form {
+  max-width: 100px;
+  margin: auto;
+  padding: 10px;
+  background-color: whitesmoke !important;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Style for form elements */
+.wpcf7-form p {
+  margin-bottom: 20px;
+}
+
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form input[type="url"],
+.wpcf7-form input[type="tel"],
+.wpcf7-form input[type="number"],
+.wpcf7-form input[type="date"],
+.wpcf7-form input[type="password"],
+.wpcf7-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the submit button */
+.wpcf7-form input[type="submit"] {
+  width: 30%;  /* Decreased width */
+  padding: 5px; /* Adjusted padding */
+  background-color: whitesmoke !important;
+  color: red;
+  border: solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.wpcf7-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
