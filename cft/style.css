@@ -11783,7 +11783,7 @@ section .section-secondary-title {
 
 /* Container for the form */
 .wpcf7-form {
-  max-width: 200px;
+  max-width: 800px;
   margin: auto;
   padding: 20px;
   background-color: whitesmoke !important;
