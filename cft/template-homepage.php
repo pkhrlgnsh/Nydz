@@ -328,6 +328,84 @@ foreach ($tags as $tag) {
         </div>
     </div>
 </section>
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <style>
+        .wpcf7-form {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: whitesmoke !important;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border: 2px solid #ccc; /* Added border for form outline */
+        }
+
+        /* Center and style the form title */
+        .form-title {
+            text-align: center;
+            font-size: 1.75em; /* Equivalent to h3 size */
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        /* Style for form elements */
+        .wpcf7-form p {
+            margin-bottom: 20px;
+        }
+
+        .wpcf7-form input[type="text"],
+        .wpcf7-form input[type="email"],
+        .wpcf7-form input[type="url"],
+        .wpcf7-form input[type="tel"],
+        .wpcf7-form input[type="number"],
+        .wpcf7-form input[type="date"],
+        .wpcf7-form input[type="password"],
+        .wpcf7-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Style for the submit button */
+        .wpcf7-form input[type="submit"] {
+            width: 100%;  /* Full width */
+            padding: 20px; /* Increased padding */
+            background-color: blue !important;
+            color: white;
+            font-size: 18px; /* Corrected from text-size-adjust */
+            border: solid;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .wpcf7-form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="wpcf7-form">
+        <label class="form-title">Form</label> <!-- Form Title -->
+        <form action="/submit_form" method="post">
+            <p>Your Name (required)<br />
+                <input type="text" name="your-name" required></p>
+
+            <p>Your Email (required)<br />
+                <input type="email" name="your-email" required></p>
+
+            <p>Subject<br />
+                <input type="text" name="your-subject"></p>
+
+            <p>Your Message<br />
+                <textarea name="your-message" style="height:200px" required></textarea></p>
+
+            <p><input type="submit" value="Send"></p>
+        </form>
+    </div>
     
     <?php 
 get_footer();
