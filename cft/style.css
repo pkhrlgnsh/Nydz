@@ -11813,7 +11813,7 @@ section .section-secondary-title {
 /* Style for the submit button */
 .wpcf7-form input[type="submit"] {
   width: 40%;  /* Decreased width */
-  padding: 10px; /* Adjusted padding */
+  padding: 20px; /* Adjusted padding */
   background-color: blue !important;
   color: white;
   border: solid;
