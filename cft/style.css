@@ -11783,9 +11783,9 @@ section .section-secondary-title {
 
 /* Container for the form */
 .wpcf7-form {
-  max-width: 100px;
+  max-width: 200px;
   margin: auto;
-  padding: 10px;
+  padding: 20px;
   background-color: whitesmoke !important;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -11806,7 +11806,7 @@ section .section-secondary-title {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
   border-radius: 4px;
 }
 
@@ -11815,9 +11815,9 @@ section .section-secondary-title {
   width: 30%;  /* Decreased width */
   padding: 5px; /* Adjusted padding */
   background-color: whitesmoke !important;
-  color: red;
+  color: white;
   border: solid;
-  border-radius: 8px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
