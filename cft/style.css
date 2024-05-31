@@ -11814,7 +11814,7 @@ section .section-secondary-title {
 .wpcf7-form input[type="submit"] {
   width: 30%;  /* Decreased width */
   padding: 5px; /* Adjusted padding */
-  background-color: whitesmoke !important;
+  background-color: blue !important;
   color: white;
   border: solid;
   border-radius: 4px;
