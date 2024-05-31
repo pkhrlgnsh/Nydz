@@ -11816,6 +11816,7 @@ section .section-secondary-title {
   padding: 20px; /* Adjusted padding */
   background-color: blue !important;
   color: white;
+  text-size-adjust: 18px;
   border: solid;
   border-radius: 4px;
   cursor: pointer;
