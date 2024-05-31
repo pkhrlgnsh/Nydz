@@ -11804,7 +11804,7 @@ section .section-secondary-title {
 .wpcf7-form input[type="date"],
 .wpcf7-form input[type="password"],
 .wpcf7-form textarea {
-  width: 100%;
+  width: 50%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
