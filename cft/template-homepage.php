@@ -35,7 +35,7 @@ get_header() ?>
       margin-bottom: 0px;
     }
     .sidebar_post{
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
     .banner_content_say{
        color:white;
@@ -249,10 +249,10 @@ foreach ($tags as $tag) {
     </div>
 </div>
                
-                               <h4 class="sidebar-title mt-5 mb-4">Popular Posts</h4>
+                               <h4 class="sidebar-title mt-5 mb-4 ">Popular Posts</h4>
                 <div class="card mb-4">
                     <a href="single-post.html" class="overlay-link"></a>
-                                        <div class="card-header p-0 sidebar_post ">                                   
+                                        <div class="card-header p-0  ">                                   
                         
                     </div>
                        
@@ -272,7 +272,7 @@ foreach ($tags as $tag) {
         if ($popular_posts_query->have_posts()) :
             while ($popular_posts_query->have_posts()) : $popular_posts_query->the_post();
         ?>
-                <a href="<?php echo esc_url(get_permalink()); ?>" class="popular-post-item">
+                <a href="<?php echo esc_url(get_permalink()); ?>" class="popular-post-item sidebar_post">
                     <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" class="w-100" alt="">
                     <div class="popular-post-caption" style="color: black; font-size: 18px;">
     <?php the_title(); ?>
