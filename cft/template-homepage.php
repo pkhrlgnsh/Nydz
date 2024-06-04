@@ -6,7 +6,7 @@ get_header() ?>
 <!-- Banner Section -->
 <style>
     .banner_iomage_wraooper { 
-        background-image: url('http://localhost/jobsfungi/wp-content/uploads/2024/05/How-GoWithFund-Works-1.jpg'); 
+        background-image: url('https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/job-search-word-concepts-banner-vector-28884582.jpg'); 
         background-size: fit; 
         height: 30rem;
         display: flex;
