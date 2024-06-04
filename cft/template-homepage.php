@@ -339,7 +339,7 @@ foreach ($tags as $tag) {
 <section class="why-choose-us-section">
     <div class="container">
         <h2 class="section-title text-center mb-4">Why Choose Us?</h2>
-        <div class="row blogs_post">
+        <div class="row">
             <div class="col-md-4">
                 <h3 class="reason-title">Quality Jobs</h3>
                 <p class="reason-description">We offer a wide range of high-quality job opportunities in Europe.</p>
