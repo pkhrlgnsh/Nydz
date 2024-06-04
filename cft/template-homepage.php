@@ -64,7 +64,7 @@ get_header() ?>
         // WP_Query arguments
         $args = array(
             'category_name' => 'featured',
-            'posts_per_page' => -1 // Set to -1 to display all posts in the "featured" category
+            'posts_per_page' => 4 // Set to -1 to display all posts in the "featured" category
         );
 
         // The Query
@@ -267,7 +267,7 @@ foreach ($tags as $tag) {
         // WP_Query arguments
         $args = array(
             'category_name' => 'popular',
-            'posts_per_page' => -1 // Set to -1 to display all posts in the "featured" category
+            'posts_per_page' => 4 // Set to -1 to display all posts in the "featured" category
         );
 
         // The Query
