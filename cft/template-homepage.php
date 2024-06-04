@@ -20,6 +20,7 @@ get_header() ?>
     }
     .why_us{
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        padding: 10px;
     }
    .post_captions{
     background-color: #00000099;
