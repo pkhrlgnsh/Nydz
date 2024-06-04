@@ -35,7 +35,7 @@ get_header() ?>
       margin-bottom: 0px;
     }
     .sidebar_post{
-        margin-bottom: 10px;
+        margin-bottom: 50px;
     }
     .banner_content_say{
        color:white;
