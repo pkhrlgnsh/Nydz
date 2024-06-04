@@ -6,7 +6,7 @@ get_header() ?>
 <!-- Banner Section -->
 <style>
     .banner_iomage_wraooper { 
-        background-image: url('https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/job-search-word-concepts-banner-vector-28884582.jpg'); 
+        background-image: url('http://localhost/jobsfungi/wp-content/uploads/2024/05/How-GoWithFund-Works-1.jpg'); 
         background-size: fit; 
         height: 30rem;
         display: flex;
@@ -205,7 +205,8 @@ endif;
                     <a href="javascript:void(0)"><i class="ti-facebook"></i></a>
                     <a href="javascript:void(0)"><i class="ti-twitter"></i></a>
                                    </div>
-                <p>Consectetur adipisicing elit Possimus tempore facilis dolorum veniam impedit nobis. Quia, soluta incidunt nesciunt dolorem reiciendis iusto.</p>
+                <p>Welcome to Jobs in Europe, where your career dreams come to life. Discover a world of opportunities tailored to your skills and ambitions. Whether you are starting afresh or looking to advance your realm, we are here to support your journey in every step.
+.</p>
                 
 
                 <h4 class="sidebar-title mt-5 mb-4">Subscribe Us To Get Newsletter</h4>
