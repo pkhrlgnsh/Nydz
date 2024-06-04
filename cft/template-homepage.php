@@ -34,9 +34,7 @@ get_header() ?>
       padding: 40px;
       margin-bottom: 0px;
     }
-    .sidebar_post{
-        margin-bottom: 50px;
-    }
+   
     .banner_content_say{
        color:white;
           }
@@ -274,7 +272,7 @@ foreach ($tags as $tag) {
         ?>
                 <a href="<?php echo esc_url(get_permalink()); ?>" class="popular-post-item ">
                     <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" class="w-100" alt="">
-                    <div class="popular-post-caption" style="color: black; margin-bottom: 20px;">
+                    <div class="popular-post-caption" style="color: black; margin-bottom: 30px;">
     <?php the_title(); ?>
 </div>
 
