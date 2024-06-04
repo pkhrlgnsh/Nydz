@@ -34,10 +34,12 @@ get_header() ?>
       padding: 40px;
       margin-bottom: 0px;
     }
+    .sidebar_post{
+        padding-bottom: 5px;
+    }
     .banner_content_say{
        color:white;
-    
-      }
+          }
     </style>
 <section class="banner-section" style="text-align: center;">
     <div class="container-fluid banner_iomage_wraooper">
@@ -248,9 +250,9 @@ foreach ($tags as $tag) {
 </div>
                
                                <h4 class="sidebar-title mt-5 mb-4">Popular Posts</h4>
-                <div class="card mb-4">
+                <div class="card mb-4 sidebar_post">
                     <a href="single-post.html" class="overlay-link"></a>
-                    <div class="card-header p-0">                                   
+                                        <div class="card-header p-0">                                   
                         
                     </div>
                        
