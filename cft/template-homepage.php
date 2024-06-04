@@ -273,11 +273,11 @@ foreach ($tags as $tag) {
             while ($popular_posts_query->have_posts()) : $popular_posts_query->the_post();
         ?>
         <div class="mb-4">
-                <a href="<?php echo esc_url(get_permalink()); ?>" class="popular-post-item sidebar_post">
+                <a href="<?php echo esc_url(get_permalink()); ?>" class="popular-post-item">
                     <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" class="w-100" alt="">
                     <div class="popular-post-caption" style="color: black; font-size: 18px;">
-    <?php the_title(); ?>
-</div>
+                        <?php the_title(); ?>
+                    </div>
 
                 </a>
         </div>
