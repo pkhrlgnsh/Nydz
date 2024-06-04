@@ -109,7 +109,7 @@ get_header() ?>
         while ($latest_post_query->have_posts()) : $latest_post_query->the_post();
     ?>
             <div class="card-header text-center">
-                <h5 class="card-title"><?php the_title(); ?></h5>
+                <h3 class="card-title"><?php the_title(); ?></h3>
                 <small class="small text-muted"><?php echo get_the_date(); ?> 
                     <span class="px-2">-</span>
                     <a href="<?php echo esc_url(get_comments_link()); ?>" class="text-muted"><?php echo get_comments_number(); ?> Comments</a>
