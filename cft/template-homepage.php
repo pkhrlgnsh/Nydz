@@ -250,9 +250,9 @@ foreach ($tags as $tag) {
 </div>
                
                                <h4 class="sidebar-title mt-5 mb-4">Popular Posts</h4>
-                <div class="card mb-4 sidebar_post">
+                <div class="card mb-4">
                     <a href="single-post.html" class="overlay-link"></a>
-                                        <div class="card-header p-0">                                   
+                                        <div class="card-header p-0 sidebar_post ">                                   
                         
                     </div>
                        
