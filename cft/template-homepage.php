@@ -24,11 +24,7 @@ get_header() ?>
      .page_size{
      width: auto;
 }
-    .blogs_post{
-        justify-content: center;
-    }
-
-    .banner_content_texts{
+        .banner_content_texts{
       display: flex;
       align-items: flex-end;
       font-size: 3.5rem;
