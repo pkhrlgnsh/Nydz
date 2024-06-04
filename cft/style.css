@@ -158,13 +158,13 @@ sup {
 }
 
 a {
-  color: #33A2FF;
+  color: blue;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #7fecd3;
+  color: black;
   text-decoration: none;
 }
 
@@ -1160,13 +1160,14 @@ pre code {
         -ms-flex: 0 0 25%;
             flex: 0 0 25%;
     max-width: 25%;
-  }
+      }
   .col-md-4 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.33333%;
         -ms-flex: 0 0 33.33333%;
             flex: 0 0 33.33333%;
     max-width: 33.33333%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
   .col-md-5 {
     -webkit-box-flex: 0;
@@ -1174,6 +1175,7 @@ pre code {
         -ms-flex: 0 0 41.66667%;
             flex: 0 0 41.66667%;
     max-width: 41.66667%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
   .col-md-6 {
     -webkit-box-flex: 0;
@@ -1181,6 +1183,7 @@ pre code {
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
     max-width: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
   .col-md-7 {
     -webkit-box-flex: 0;
@@ -5055,6 +5058,10 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 0 solid transparent;
   border-radius: 0rem;
+}
+
+.card_image_content{
+  width: 50rem !important;
 }
 
 .card > hr {
@@ -11169,13 +11176,14 @@ hr {
 
 .blog-media {
   position: relative;
+  text-align: center;
 }
 
 .blog-media .badge {
   position: absolute;
   left: 0;
   top: 0px;
-  padding: 7px;
+  padding: px;
   z-index: 10;
 }
 
@@ -11253,15 +11261,16 @@ hr {
   right: 0;
   margin: auto;
   width: 80%;
-  background: #fff;
-  padding: 8px;
+  height: 40px;
+  background: #00000099;
+  padding: 5px;
   text-align: center;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   opacity: 1;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  color: #000000;
+  color: #ffffff;
 }
 
 .feature-posts .feature-post-item:hover .feature-post-caption {
@@ -11840,8 +11849,7 @@ body {
     margin: auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+    }
 
 h1 {
     text-align: center;
