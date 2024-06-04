@@ -10,7 +10,7 @@ function my_astra_child_enqueue_styles() {
     // Enqueue child theme stylesheet with time as version
     wp_enqueue_style('child-style',
         get_stylesheet_directory_uri() . '/style.css',
-        // array($parent_style),
+        array($parent_style),
         time() // Using current time as version
     );
 }
