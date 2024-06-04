@@ -18,10 +18,7 @@ get_header() ?>
         justify-content: center;
              
     }
-    .why_us{
-                padding: 10px;
-    }
-   .post_captions{
+    .post_captions{
     background-color: #00000099;
 }
      .page_size{
@@ -344,7 +341,7 @@ foreach ($tags as $tag) {
     </div>
 </section>
 <section class="why-choose-us-section">
-    <div class="container why_us">
+    <div class="container">
         <h2 class="section-title text-center mb-4">Why Choose Us?</h2>
         <div class="row blogs_post">
             <div class="col-md-4">
