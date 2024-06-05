@@ -238,7 +238,7 @@ foreach ($tags as $tag) {
 }
 ?>
 
-                <div class="row button_hov">
+                <div class="row ">
     <div class="col-md-4">
         <h5 class="sidebar-title mt-5 mb-4">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="blue" class="bi bi-facebook" viewBox="0 0 20 20">
@@ -335,7 +335,7 @@ foreach ($tags as $tag) {
                             <div class="blog-content">
                                 <h3 class="blog-title"><a href="<?php the_permalink(); ?>" style="color: black;"><?php the_title(); ?></a></h3>
                                 <p class="blog-excerpt" style="color: black;"><?php echo get_the_excerpt(); ?></p>
-                                <a href="<?php the_permalink(); ?>" class="read-more" style="color: black; ">Read more</a>
+                                <a href="<?php the_permalink(); ?>" class="read-more button_hov" style="color: black; ">Read more</a>
                             </div>
                         </div>
                     </div>
