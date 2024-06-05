@@ -140,7 +140,7 @@ get_header() ?>
                 <p class="my-3"><?php echo get_the_excerpt(); ?></p>
             </div>
             <div class="card-footer d-flex justify-content-between align-items-center flex-basis-0">
-                <button class="btn btn-primary circle-35 mr-4"><i class="ti-back-right"></i></button>
+                <button class="btn btn-primary circle-35 mr-4"><i class="ti-back-center"></i></button>
                 <a href="<?php echo esc_url(get_permalink()); ?>" class="btn btn-outline-dark btn-sm button_hov">READ MORE</a>
     </div>
     <?php
