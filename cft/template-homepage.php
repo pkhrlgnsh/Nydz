@@ -7,7 +7,7 @@ get_header() ?>
 <style>
     .banner_iomage_wraooper { 
         background-image: url('https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/job-search-word-concepts-banner-vector-28884582.jpg'); 
-        background-size: fit; 
+        background-size: f; 
         height: 35rem;
         display: flex;
         justify-content: center;
@@ -20,7 +20,7 @@ get_header() ?>
     }
     .text_post{
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: px;
         font-size: 14px;
     }
 
@@ -42,7 +42,9 @@ get_header() ?>
     background-color: orange !important;
     color: white !important;
   }
-
+   .hov_col:hover{
+    color: white;
+   }
     .cards_top{
         padding-top: 25px;
         padding-bottom: 25px;
@@ -65,7 +67,7 @@ get_header() ?>
       margin-bottom: 0px;
     }
     .banners_sections{
-        padding-bottom: 60px;
+        padding-bottom: 40px;
     }
     .features_posts{
         padding-bottom: 40px;
@@ -245,7 +247,7 @@ $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Wai
 <?php
 // Loop through the tags array and generate HTML for each tag
 foreach ($tags as $tag) {
-    echo '<a href="javascript:void(0)" class="badge badge-primary m-1 p-2">' . $tag . '</a>';
+    echo '<a href="javascript:void(0)" class="badge badge-primary m-1 p-2 hov_col">' . $tag . '</a>';
 }
 ?>
 
