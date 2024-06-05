@@ -356,14 +356,13 @@ foreach ($tags as $tag) {
     </div>
 </section>
 <section class="why-choose-us-section">
-    <div class="container reason-box ">
+    <div class="container reason-box">
         <div class="section-box"> 
-            <h2 class="section-title text-center mb-4">Why Choose Us?</h2>
+            <h2 class="section-title text-center mb-4" style="text-decoration: underline;">Why Choose Us?</h2>
         </div>
         <div class="row">
             <div class="col-md-4">
                 <div class="reason-box">
-                    <i class="fas fa-tasks"></i>
                     <div class="title-box">
                         <h3 class="reason-title">Quality</h3>
                     </div>
@@ -372,7 +371,6 @@ foreach ($tags as $tag) {
             </div>
             <div class="col-md-4">
                 <div class="reason-box">
-                    <i class="fas fa-user-tie"></i>
                     <div class="title-box">
                         <h3 class="reason-title">Expertise</h3>
                     </div>
@@ -381,7 +379,6 @@ foreach ($tags as $tag) {
             </div>
             <div class="col-md-4">
                 <div class="reason-box">
-                    <i class="fas fa-heart"></i>
                     <div class="title-box">
                         <h3 class="reason-title">Satisfaction</h3>
                     </div>
