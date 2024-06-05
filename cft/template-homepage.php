@@ -25,7 +25,7 @@ get_header() ?>
     .button_hov
     {
     padding: 10px; /* Adjusted padding */
-    background-color: blue !important;
+    background-color: #33A2FF !important;
     color: white;
     text-size-adjust: 18px;
     cursor: pointer;

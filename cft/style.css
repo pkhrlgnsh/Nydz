@@ -151,7 +151,7 @@ sup {
 }
 
 a {
-  color: blue;
+  color:#33A2FF;
   text-decoration: none;
   background-color: transparent;
 }
@@ -11719,7 +11719,7 @@ section .section-secondary-title {
 .wpcf7-form input[type="submit"] {
   width: 100%;  /* Decreased width */
   padding: 10px; /* Adjusted padding */
-  background-color: blue !important;
+  background-color: #33A2FF !important;
     color: white;
   text-size-adjust: 18px;
   border: solid;
