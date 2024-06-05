@@ -11694,10 +11694,11 @@ section .section-secondary-title {
   padding: 20px;
   background-color: whitesmoke !important;
   border: 2px solid #ccc;
-      padding-top: 12px;
-    padding-right: 100px;
-    padding-bottom: 12px;
-	padding-left: 100px;
+  padding: 100px;
+  /* padding-top: 12px;
+  padding-right: 100px;
+  padding-bottom: 12px;
+	padding-left: 100px; */
 }
 
 /* Style for form elements */
