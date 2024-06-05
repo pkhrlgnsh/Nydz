@@ -11728,7 +11728,7 @@ section .section-secondary-title {
 }
 
 .wpcf7-form input[type="submit"]:hover {
-  background-color: grey;
+  background-color: orange !important;
 }
 
 
