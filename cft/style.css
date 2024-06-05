@@ -11786,13 +11786,14 @@ h1 {
 }
 
 .reason-box {
-  border: 1px solid #000; /* Border style */
-  padding: 20px; /* Adjust padding as needed */
-  text-align: center; /* Center align content */
-  border-radius: 5px; /* Add rounded corners */
+  border: 1px solid #000;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 .reason-box i {
-  font-size: 24px; /* Adjust icon size */
-  margin-bottom: 10px; /* Add space between icon and title */
+  font-size: 24px;
+  margin-bottom: 10px;
 }
