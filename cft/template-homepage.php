@@ -16,22 +16,12 @@ get_header() ?>
         display: flex;
         align-items: flex-end;
         justify-content: center;
-       
+             
     }
-    .pags_container{
-        padding-top: 15px;
-        padding-bottom: 40px;
-    }
-     .post_captions{
+    .post_captions{
     background-color: #00000099;
 }
-     .page_size{
-     width: auto;
-     }
-     .row_pads{
-        padding-top: 20px;
-     }
-        .banner_content_texts{
+    .banner_content_texts{
       display: flex;
       align-items: flex-end;
       font-size: 3.5rem;
@@ -94,7 +84,7 @@ get_header() ?>
     </div>
 </section>
         <hr>
-        <div class="page-container pags_container">
+        <div class="page-container">
             <div class="page-content page_size">
                 
             <div class="card">
@@ -141,7 +131,7 @@ get_header() ?>
     ?>
 </div>
                 <hr>
-                <div class="row row_pads">
+                <div class="row">
                 <?php
 // WP_Query arguments to retrieve the latest post
 $latest_post_args = array(
@@ -204,7 +194,7 @@ endif;
 
             <!-- Sidebar -->
             <div class="page-sidebar text-center">
-                <h4 class="sidebar-title section-title mb-4 mt-3 sidebar_padin">About</h4>
+                <h4 class="sidebar-title section-title mb-4 mt-3">About</h4>
                 <img src="https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/job-search-word-concepts-banner-vector-28884582.jpg" alt="" class="circle-100 mb-3">
                 <div class="socials mb-3 mt-2">
                     <a href="javascript:void(0)"><i class="ti-facebook"></i></a>
