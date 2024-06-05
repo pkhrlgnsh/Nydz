@@ -199,7 +199,7 @@ else :
 endif;
 ?>
 </div>
-<button class="btn btn-primary btn-block my-4" style="width: 200px; font-size: 16px; margin: auto;">Load More Posts</button>            
+<button class="btn btn-primary btn-block my-4 button_hov" style="width: 200px; font-size: 16px; margin: auto;">Load More Posts</button>            
 
 
             </div>
