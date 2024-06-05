@@ -19,7 +19,7 @@ get_header() ?>
     
     }
     .text_post{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .button_hov
