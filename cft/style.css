@@ -11710,7 +11710,7 @@ section .section-secondary-title {
 .wpcf7-form input[type="password"],
 .wpcf7-form textarea {
   width: 100%;
-  padding: 100px;
+  padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
