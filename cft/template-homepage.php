@@ -358,22 +358,32 @@ foreach ($tags as $tag) {
 <section class="why-choose-us-section">
     <div class="container">
         <h2 class="section-title text-center mb-4">Why Choose Us?</h2>
-        <div class="row ">
+        <div class="row">
             <div class="col-md-4">
-                <h3 class="reason-title">Quality Jobs</h3>
-                <p class="reason-description">We offer a wide range of high-quality job opportunities in Europe.</p>
+                <div class="reason-box">
+                    <i class="fas fa-tasks"></i>
+                    <h3 class="reason-title">Quality Jobs</h3>
+                    <p class="reason-description">We offer a wide range of high-quality job opportunities in Europe.</p>
+                </div>
             </div>
             <div class="col-md-4">
-                <h3 class="reason-title">Expertise</h3>
-                <p class="reason-description">Our team consists of experts in recruitment and job placement.</p>
+                <div class="reason-box">
+                    <i class="fas fa-user-tie"></i>
+                    <h3 class="reason-title">Expertise</h3>
+                    <p class="reason-description">Our team consists of experts in recruitment and job placement.</p>
+                </div>
             </div>
             <div class="col-md-4">
-                <h3 class="reason-title">Customer Satisfaction</h3>
-                <p class="reason-description">We prioritize customer satisfaction and strive to meet your needs.</p>
+                <div class="reason-box">
+                    <i class="fas fa-heart"></i>
+                    <h3 class="reason-title">Customer Satisfaction</h3>
+                    <p class="reason-description">We prioritize customer satisfaction and strive to meet your needs.</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
   
     <?php 
 get_footer();
