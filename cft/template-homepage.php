@@ -356,8 +356,8 @@ foreach ($tags as $tag) {
     </div>
 </section>
 <section class="why-choose-us-section">
-    <div class="container">
-        <div class="section-box"> <!-- New div to enclose the title and h3 -->
+    <div class="container reason-box ">
+        <div class="section-box"> 
             <h2 class="section-title text-center mb-4">Why Choose Us?</h2>
         </div>
         <div class="row">
