@@ -366,6 +366,7 @@ foreach ($tags as $tag) {
                     <div class="title-box">
                         <h3 class="reason-title">Quality</h3>
                     </div>
+                    <img src="https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/Human-Resources-Rating-Man-Streamline-Freehand.png" alt="Quality Image"> 
                     <p class="reason-description">We offer a wide range of high-quality job opportunities in Europe.</p>
                 </div>
             </div>
@@ -374,6 +375,7 @@ foreach ($tags as $tag) {
                     <div class="title-box">
                         <h3 class="reason-title">Expertise</h3>
                     </div>
+                    <img src="https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/Fitness-Dumbells-Time-Streamline-Freehand.png" alt="Expertise Image"> 
                     <p class="reason-description">Our team consists of experts in recruitment and job placement.</p>
                 </div>
             </div>
@@ -382,12 +384,14 @@ foreach ($tags as $tag) {
                     <div class="title-box">
                         <h3 class="reason-title">Satisfaction</h3>
                     </div>
+                    <img src="https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/Crm-Worldwide-Faq-Streamline-Freehand.png" alt="Satisfaction Image">
                     <p class="reason-description">We prioritize customer satisfaction and strive to meet your needs.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 <?php 
 get_footer();
 ?>
