@@ -153,7 +153,7 @@ get_header() ?>
     ?>
 </div>
                 <hr>
-                <div class="row">
+                <div class="row blog_titl-pd">
                 <?php
 // WP_Query arguments to retrieve the latest post
 $latest_post_args = array(
@@ -358,7 +358,7 @@ foreach ($tags as $tag) {
 <section class="why-choose-us-section">
     <div class="container">
         <h2 class="section-title text-center mb-4">Why Choose Us?</h2>
-        <div class="row blog_titl-pd">
+        <div class="row ">
             <div class="col-md-4">
                 <h3 class="reason-title">Quality Jobs</h3>
                 <p class="reason-description">We offer a wide range of high-quality job opportunities in Europe.</p>
