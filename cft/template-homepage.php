@@ -30,7 +30,8 @@ get_header() ?>
   }
 
   .button_hov:hover {
-    color: blue;
+    background-color: blue
+    color: white;
   }
 
     .cards_top{
