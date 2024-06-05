@@ -182,10 +182,6 @@ if ($latest_post_query->have_posts()) :
                 </div>
                 <div class="card-body px-0">
                     <h5 class="card-title mb-2"><?php the_title(); ?></h5>
-                    <small class="small text-muted"><?php echo get_the_date(); ?> 
-                        <span class="px-2">-</span>
-                        <a href="<?php echo esc_url(get_comments_link()); ?>" class="text-muted"><?php echo get_comments_number(); ?> Comments</a>
-                    </small>
                     <p class="my-2"><?php echo get_the_excerpt(); ?></p>
                 </div>
                 <div class="card-footer p-0 text-center">
