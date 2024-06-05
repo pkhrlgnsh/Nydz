@@ -19,6 +19,8 @@ get_header() ?>
     
     }
     .text_post{
+        padding-top: 25px;
+        padding-bottom: 25px;
         font-size: 14px;
     }
 
