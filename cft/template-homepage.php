@@ -34,7 +34,9 @@ get_header() ?>
       padding: 40px;
       margin-bottom: 0px;
     }
-   
+    .features_posts{
+        padding-bottom: 20px;
+    }
     .banner_content_say{
        color:white;
           }
@@ -48,7 +50,7 @@ get_header() ?>
         </div>
     </div>
 </section>
-    <div class="feature-posts">
+    <div class="feature-posts features_posts">
     <a href="single-post.html" class="feature-post-item ">                       
     <span style="font-size: 22px;">Featured Posts</span>
 </a>
