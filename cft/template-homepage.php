@@ -32,9 +32,9 @@ get_header() ?>
     font-size: 16px;
     cursor: pointer;
   }
-    .blog_titl-pd{
-        padding-top: 10px;
-        padding-bottom: 10px;
+    .blog_titl_pd{
+        padding-top: 20px;
+        padding-bottom: 20px;
     
     }
 
@@ -181,7 +181,7 @@ if ($latest_post_query->have_posts()) :
         <div class="col-lg-6">
             <div class="card text-center mb-5">
                 <div class="card-header p-0">
-                    <div class="blog-media blog_titl-pd">
+                    <div class="blog-media blog_titl_pd">
                         <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" alt="" class="w-100">
                         <?php
                         $post_categories = get_the_category();
@@ -297,7 +297,7 @@ foreach ($tags as $tag) {
         ?>
                 <a href="<?php echo esc_url(get_permalink()); ?>" class="popular-post-item ">
                     <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" class="w-100" alt="">
-                    <div class="popular-post-caption blog_titl-pd" style="color: black; font-size: 18px; margin-bottom: 30px;">
+                    <div class="popular-post-caption blog_titl_pd" style="color: black; font-size: 18px; margin-bottom: 30px;">
     <?php the_title(); ?>
 </div>
 
@@ -344,8 +344,8 @@ foreach ($tags as $tag) {
                                 </a>
                             </div>
                             <div class="blog-content">
-                                <h3 class="blog-title blog_titl-pd"><a href="<?php the_permalink(); ?>" style="color: black;"><?php the_title(); ?></a></h3>
-                                <p class="blog-excerpt blog_titl-pd text_post" style="color: black;"><?php echo get_the_excerpt(); ?></p>
+                                <h3 class="blog-title blog_titl_pd"><a href="<?php the_permalink(); ?>" style="color: black;"><?php the_title(); ?></a></h3>
+                                <p class="blog-excerpt blog_titl_pd text_post" style="color: black;"><?php echo get_the_excerpt(); ?></p>
                                 <a href="<?php the_permalink(); ?>" class="read-more button_hov">Read More</a>
                             </div>
                         </div>
