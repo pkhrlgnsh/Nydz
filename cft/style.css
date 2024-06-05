@@ -11811,3 +11811,15 @@ h1 {
     width: 40px;
     height: 40px;
 }
+
+.reason-box {
+  border: 1px solid #000; /* Border style */
+  padding: 20px; /* Adjust padding as needed */
+  text-align: center; /* Center align content */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.reason-box i {
+  font-size: 24px; /* Adjust icon size */
+  margin-bottom: 10px; /* Add space between icon and title */
+}

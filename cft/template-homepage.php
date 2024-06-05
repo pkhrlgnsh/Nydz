@@ -357,33 +357,33 @@ foreach ($tags as $tag) {
 </section>
 <section class="why-choose-us-section">
     <div class="container">
-        <h3 class="section-title text-center mb-4">Why Choose Us?</h3>
+        <h2 class="section-title text-center mb-4">Why Choose Us?</h2>
         <div class="row">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-XDb7pFt/Ed0HskcwIlEZ4cUvxHbeq+9jTE6m94fYbDpXQEmke2+R6ArKGzI7U6jjGcwHjRn7ipxVPKMdkt6pUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
             <div class="col-md-4">
                 <div class="reason-box">
                     <i class="fas fa-tasks"></i>
-                    <h4 class="reason-title">Quality Jobs</h4>
+                    <h3 class="reason-title">Quality Jobs</h3>
                     <p class="reason-description">We offer a wide range of high-quality job opportunities in Europe.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="reason-box">
                     <i class="fas fa-user-tie"></i>
-                    <h4 class="reason-title">Expertise</h4>
+                    <h3 class="reason-title">Expertise</h3>
                     <p class="reason-description">Our team consists of experts in recruitment and job placement.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="reason-box">
                     <i class="fas fa-heart"></i>
-                    <h4 class="reason-title">Customer Satisfaction</h4>
+                    <h3 class="reason-title">Customer Satisfaction</h3>
                     <p class="reason-description">We prioritize customer satisfaction and strive to meet your needs.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
   
     <?php 
