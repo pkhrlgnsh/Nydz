@@ -19,12 +19,12 @@ get_header() ?>
             
     }
     .cards_top{
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     .side_bar{
-        padding-top: 30px;
-        padding-bottom: 30px; 
+        padding-top: 25px;
+        padding-bottom: 25px; 
     }
     .post_captions{
     background-color: #00000099;
