@@ -16,7 +16,11 @@ get_header() ?>
         display: flex;
         align-items: flex-end;
         justify-content: center;
-             
+            
+    }
+    .cards_top{
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     .post_captions{
     background-color: #00000099;
@@ -85,9 +89,9 @@ get_header() ?>
 </section>
         <hr>
         <div class="page-container">
-            <div class="page-content page_size">
+            <div class="page-content ">
                 
-            <div class="card">
+            <div class="card cards_top">
     <?php
     // WP_Query arguments to retrieve the latest post
     $latest_post_args = array(
