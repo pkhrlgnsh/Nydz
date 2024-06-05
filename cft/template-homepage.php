@@ -20,13 +20,12 @@ get_header() ?>
     }
     .button_hov
     {
-    width: 100%;  /* Decreased width */
     padding: 10px; /* Adjusted padding */
-    background-color: blue !important;
-    color: white;
+    background-color: White !important;
+    color: black;
     text-size-adjust: 18px;
     border: solid;
-    border-radius: 2px;
+    border-radius: 1px;
     cursor: pointer;
   }
 
