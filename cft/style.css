@@ -3202,15 +3202,9 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
 
-.btn-outline-dark {
-  color: #343a40;
-  border-color: #343a40;
-}
-
 .btn-outline-dark:hover {
   color: #fff;
   background-color: #343a40;
-  border-color: #343a40;
 }
 
 .btn-outline-dark:focus, .btn-outline-dark.focus {
