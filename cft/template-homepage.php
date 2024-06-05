@@ -28,7 +28,7 @@ get_header() ?>
   }
 
   .button_hov:hover {
-    background-color: blue;
+    background-color: blue !important;
     color: white;
   }
 
