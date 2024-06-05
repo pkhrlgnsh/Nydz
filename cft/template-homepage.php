@@ -22,7 +22,7 @@ get_header() ?>
     {
     padding: 10px; /* Adjusted padding */
     background-color: blue !important;
-    color: black;
+    color: white;
     text-size-adjust: 18px;
     cursor: pointer;
   }
