@@ -11823,9 +11823,3 @@ h1 {
   font-size: 24px; /* Adjust icon size */
   margin-bottom: 10px; /* Add space between icon and title */
 }
-
-.reason-image {
-  width: 100%; /* Make the image fill its container */
-  height: auto; /* Maintain aspect ratio */
-  max-height: 200px; /* Set maximum height to prevent image distortion */
-}
