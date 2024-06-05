@@ -19,7 +19,7 @@ get_header() ?>
        
     }
     .pags_container{
-        padding-top: 20px;
+        padding-top: 15px;
     }
      .post_captions{
     background-color: #00000099;
