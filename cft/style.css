@@ -11823,10 +11823,3 @@ h1 {
   font-size: 24px; /* Adjust icon size */
   margin-bottom: 10px; /* Add space between icon and title */
 }
-
-.reason-title,
-.reason-description {
-  border: 1px solid #000; /* Add border to title and description */
-  padding: 10px; /* Adjust padding */
-  margin-top: 10px; /* Add space between title and description */
-}
