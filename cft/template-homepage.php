@@ -234,7 +234,7 @@ endif;
 $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Waiter & Waitress Jobs", "Care Giver Jobs");
 ?>
 
-<h6 class="sidebar-title mt-5 mb-4">Tags</h6>
+<h4 class="sidebar-title mt-5 mb-4">Tags</h4>
 
 <?php
 // Loop through the tags array and generate HTML for each tag
