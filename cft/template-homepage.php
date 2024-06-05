@@ -19,8 +19,8 @@ get_header() ?>
     
     }
     .text_post{
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         font-size: 14px;
     }
 
@@ -33,8 +33,8 @@ get_header() ?>
     cursor: pointer;
   }
     .blog_titl_pd{
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     
     }
 
