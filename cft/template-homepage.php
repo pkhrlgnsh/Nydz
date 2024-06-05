@@ -26,6 +26,11 @@ get_header() ?>
     text-size-adjust: 18px;
     cursor: pointer;
   }
+    .blog_titl-pd{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+    }
 
   .button_hov:hover {
     background-color: orange !important;
@@ -333,7 +338,7 @@ foreach ($tags as $tag) {
                                 </a>
                             </div>
                             <div class="blog-content">
-                                <h3 class="blog-title"><a href="<?php the_permalink(); ?>" style="color: black;"><?php the_title(); ?></a></h3>
+                                <h3 class="blog-title blog_titl-pd"><a href="<?php the_permalink(); ?>" style="color: black;"><?php the_title(); ?></a></h3>
                                 <p class="blog-excerpt" style="color: black;"><?php echo get_the_excerpt(); ?></p>
                                 <a href="<?php the_permalink(); ?>" class="read-more button_hov">Read more</a>
                             </div>
