@@ -24,13 +24,11 @@ get_header() ?>
     background-color: White !important;
     color: black;
     text-size-adjust: 18px;
-    border: solid;
-    border-radius: 0px;
     cursor: pointer;
   }
 
   .button_hov:hover {
-    background-color: blue
+    background-color: blue;
     color: white;
   }
 
