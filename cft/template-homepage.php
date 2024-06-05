@@ -127,11 +127,7 @@ get_header() ?>
     ?>
             <div class="card-header text-center">
                 <h2 class="card-title"><?php the_title(); ?></h2>
-                <small class="small text-muted"><?php echo get_the_date(); ?> 
-                    <span class="px-2">-</span>
-                    <a href="<?php echo esc_url(get_comments_link()); ?>" class="text-muted"><?php echo get_comments_number(); ?> Comments</a>
-                </small>
-            </div>
+                          </div>
             <div class="card-body">
                 <div class="blog-media">
                     <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" alt="" class="card_image_content">
@@ -141,8 +137,7 @@ get_header() ?>
             <div class="card-footer d-flex justify-content-between align-items-center flex-basis-0">
                 <button class="btn btn-primary circle-35 mr-4"><i class="ti-back-right"></i></button>
                 <a href="<?php echo esc_url(get_permalink()); ?>" class="btn btn-outline-dark btn-sm button_hov">READ MORE</a>
-                <a href="#" class="text-dark small text-muted">By : <?php the_author(); ?></a>
-            </div>
+    </div>
     <?php
         endwhile;
         wp_reset_postdata(); // Reset Post Data
