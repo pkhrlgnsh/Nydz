@@ -16,8 +16,24 @@ get_header() ?>
         display: flex;
         align-items: flex-end;
         justify-content: center;
-            
+    
     }
+    .button_hov
+    {
+    width: 100%;  /* Decreased width */
+    padding: 10px; /* Adjusted padding */
+    background-color: blue !important;
+    color: white;
+    text-size-adjust: 18px;
+    border: solid;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    color: blue;
+  }
+
     .cards_top{
         padding-top: 25px;
         padding-bottom: 25px;
@@ -126,7 +142,7 @@ get_header() ?>
             </div>
             <div class="card-footer d-flex justify-content-between align-items-center flex-basis-0">
                 <button class="btn btn-primary circle-35 mr-4"><i class="ti-back-right"></i></button>
-                <a href="<?php echo esc_url(get_permalink()); ?>" class="btn btn-outline-dark btn-sm">READ MORE</a>
+                <a href="<?php echo esc_url(get_permalink()); ?>" class="btn btn-outline-dark btn-sm button_hov">READ MORE</a>
                 <a href="#" class="text-dark small text-muted">By : <?php the_author(); ?></a>
             </div>
     <?php
@@ -180,7 +196,7 @@ if ($latest_post_query->have_posts()) :
                     <p class="my-2"><?php echo get_the_excerpt(); ?></p>
                 </div>
                 <div class="card-footer p-0 text-center">
-                    <a href="<?php echo esc_url(get_permalink()); ?>" class="btn btn-outline-dark btn-sm">READ MORE</a>
+                    <a href="<?php echo esc_url(get_permalink()); ?>" class="btn btn-outline-dark btn-sm button_hov">READ MORE</a>
                     <a href="#" class="text-dark small text-muted">By : <?php the_author(); ?></a>
                 </div>
             </div>
