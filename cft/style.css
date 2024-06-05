@@ -11691,7 +11691,7 @@ section .section-secondary-title {
 .wpcf7-form {
   max-width: 800px;
   margin: auto;
-  padding: 100px;
+  padding: 20px;
   background-color: whitesmoke !important;
   border: 2px solid #ccc;
 }
@@ -11710,7 +11710,7 @@ section .section-secondary-title {
 .wpcf7-form input[type="password"],
 .wpcf7-form textarea {
   width: 100%;
-  padding: 10px;
+  padding: 100px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
