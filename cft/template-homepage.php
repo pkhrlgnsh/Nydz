@@ -65,7 +65,7 @@ get_header() ?>
       margin-bottom: 0px;
     }
     .banners_sections{
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
     .features_posts{
         padding-bottom: 40px;
