@@ -186,8 +186,7 @@ if ($latest_post_query->have_posts()) :
                 </div>
                 <div class="card-footer p-0 text-center">
                     <a href="<?php echo esc_url(get_permalink()); ?>" class="btn btn-outline-dark btn-sm button_hov">READ MORE</a>
-                    <a href="#" class="text-dark small text-muted">By : <?php the_author(); ?></a>
-                </div>
+                              </div>
             </div>
         </div>
     
@@ -239,7 +238,7 @@ foreach ($tags as $tag) {
 }
 ?>
 
-                <div class="row">
+                <div class="row button_hov">
     <div class="col-md-4">
         <h5 class="sidebar-title mt-5 mb-4">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="blue" class="bi bi-facebook" viewBox="0 0 20 20">
