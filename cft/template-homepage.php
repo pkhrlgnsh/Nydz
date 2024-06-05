@@ -239,7 +239,7 @@ $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Wai
 <?php
 // Loop through the tags array and generate HTML for each tag
 foreach ($tags as $tag) {
-    echo '<a href="javascript:void(0)" class="badge badge-primary m-1 p-2">' . $tag . '</a>';
+    echo '<a href="'.the_permalink().'" class="badge badge-primary m-1 p-2">' . $tag . '</a>';
 }
 ?>
 
