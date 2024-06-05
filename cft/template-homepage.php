@@ -20,12 +20,16 @@ get_header() ?>
     }
     .pags_container{
         padding-top: 15px;
+        padding-bottom: 15px;
     }
      .post_captions{
     background-color: #00000099;
 }
      .page_size{
      width: auto;
+     }
+     .row_pads{
+        padding-top: 20px;
      }
         .banner_content_texts{
       display: flex;
@@ -137,7 +141,7 @@ get_header() ?>
     ?>
 </div>
                 <hr>
-                <div class="row">
+                <div class="row row_pads">
                 <?php
 // WP_Query arguments to retrieve the latest post
 $latest_post_args = array(
