@@ -30,7 +30,7 @@ get_header() ?>
     cursor: pointer;
   }
 
-  .btn:hover {
+  .btn_hov:hover {
     color: blue;
   }
 
