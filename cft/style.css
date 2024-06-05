@@ -11717,25 +11717,18 @@ section .section-secondary-title {
 
 /* Style for the submit button */
 .wpcf7-form input[type="submit"] {
-  button {
-    width: 100%;  /* Decreased width */
-    padding: 10px; /* Adjusted padding */
-    background-color: blue !important;
+  width: 100%;  /* Decreased width */
+  padding: 10px; /* Adjusted padding */
+  background-color: blue !important;
     color: white;
-    text-size-adjust: 18px;
-    border: solid;
-    border-radius: 2px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    color: orange;
-  }
-  
+  text-size-adjust: 18px;
+  border: solid;
+  border-radius: 2px;
+  cursor: pointer;
 }
 
 .wpcf7-form input[type="submit"]:hover {
-  background-color: grey;
+  background-color: var(--orange);
 }
 
 
