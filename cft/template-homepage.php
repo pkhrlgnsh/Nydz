@@ -230,17 +230,16 @@ endif;
                 </form>
 
                 <?php
-$post_tags = get_the_tags();
+// Array of tags
+$tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Waiter & Waitress Jobs", "Care Giver Jobs");
+?>
 
-// Check if there are tags
-if ($post_tags) {
-    echo '<ul class="post-tags">';
-    // Loop through each tag
-    foreach ($post_tags as $tag) {
-        // Display the tag with link
-        echo '<li><a href="' . get_tag_link($tag->term_id) . '">' . $tag->name . '</a></li>';
-    }
-    echo '</ul>';
+<h4 class="sidebar-title mt-5 mb-4">Tags</h4>
+
+<?php
+// Loop through the tags array and generate HTML for each tag
+foreach ($tags as $tag) {
+    echo '<a href="javascript:void(0)" class="badge badge-primary m-1 p-2">' . $tag . '</a>';
 }
 ?>
 
