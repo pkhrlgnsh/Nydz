@@ -11694,16 +11694,15 @@ section .section-secondary-title {
   padding: 20px;
   background-color: whitesmoke !important;
   border: 2px solid #ccc;
-  padding: 100px;
-  /* padding-top: 12px;
-  padding-right: 100px;
-  padding-bottom: 12px;
-	padding-left: 100px; */
-}
+  }
 
 /* Style for form elements */
 .wpcf7-form p {
   margin-bottom: 20px;
+    padding-top: 12px;
+    padding-right: 100px;
+    padding-bottom: 12px;
+	padding-left: 100px;
 }
 .wpcf7-form input[type="text"],
 .wpcf7-form input[type="email"],
