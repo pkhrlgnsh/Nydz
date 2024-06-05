@@ -153,7 +153,7 @@ get_header() ?>
     ?>
 </div>
                 <hr>
-                <div class="row blog_titl-pd">
+                <div class="row">
                 <?php
 // WP_Query arguments to retrieve the latest post
 $latest_post_args = array(
@@ -175,7 +175,7 @@ if ($latest_post_query->have_posts()) :
         <div class="col-lg-6">
             <div class="card text-center mb-5">
                 <div class="card-header p-0">
-                    <div class="blog-media">
+                    <div class="blog-media blog-media">
                         <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" alt="" class="w-100">
                         <?php
                         $post_categories = get_the_category();
@@ -186,7 +186,7 @@ if ($latest_post_query->have_posts()) :
                     </div>
                 </div>
                 <div class="card-body px-0">
-                    <h5 class="card-title mb-2"><?php the_title(); ?></h5>
+                    <h3 class="card-title mb-2"><?php the_title(); ?></h3>
                     <p class="my-2"><?php echo get_the_excerpt(); ?></p>
                 </div>
                 <div class="card-footer p-0 text-center">
