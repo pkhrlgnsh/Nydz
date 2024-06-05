@@ -230,13 +230,6 @@ endif;
                 </form>
 
                 <?php
-// Array of tags
-$tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Waiter & Waitress Jobs", "Care Giver Jobs");
-?>
-
-<h4 class="sidebar-title mt-5 mb-4">Tags</h4>
-
-<?php
 $post_tags = get_the_tags();
 
 // Check if there are tags
