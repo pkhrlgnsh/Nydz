@@ -356,35 +356,43 @@ foreach ($tags as $tag) {
     </div>
 </section>
 <section class="why-choose-us-section">
-    <div class="container">
-        <h2 class="section-title text-center mb-4">Why Choose Us?</h2>
-        <href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-XDb7pFt/Ed0HskcwIlEZ4cUvxHbeq+9jTE6m94fYbDpXQEmke2+R6ArKGzI7U6jjGcwHjRn7ipxVPKMdkt6pUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <href="styles.css">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="reason-box">
-                    <i class="fas fa-tasks"></i>
-                    <h3 class="reason-title">Quality</h3>
-                    <p class="reason-description">We offer a wide range of high-quality job opportunities in Europe.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="reason-box">
-                    <i class="fas fa-user-tie"></i>
-                    <h3 class="reason-title">Expertise</h3>
-                    <p class="reason-description">Our team consists of experts in recruitment and job placement.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="reason-box">
-                    <i class="fas fa-heart"></i>
-                    <h3 class="reason-title">Satisfaction</h3>
-                    <p class="reason-description">We prioritize customer satisfaction and strive to meet your needs.</p>
-                </div>
+        <div class="container">
+            <h2 class="section-title text-center mb-4">Why Choose Us?</h2>
+            <div class="row">
+                <?php
+                // Loop through your reasons
+                $reasons = array(
+                    array(
+                        "icon" => "fa-tasks",
+                        "title" => "Quality",
+                        "description" => "We offer a wide range of high-quality job opportunities in Europe."
+                    ),
+                    array(
+                        "icon" => "fa-user-tie",
+                        "title" => "Expertise",
+                        "description" => "Our team consists of experts in recruitment and job placement."
+                    ),
+                    array(
+                        "icon" => "fa-heart",
+                        "title" => "Satisfaction",
+                        "description" => "We prioritize customer satisfaction and strive to meet your needs."
+                    )
+                );
+                foreach ($reasons as $reason) {
+                    ?>
+                    <div class="col-md-4">
+                        <div class="reason-box">
+                            <i class="fas <?php echo $reason['icon']; ?>"></i> <!-- Font Awesome icon -->
+                            <h3 class="reason-title"><?php echo $reason['title']; ?></h3>
+                            <p class="reason-description"><?php echo $reason['description']; ?></p>
+                        </div>
+                    </div>
+                    <?php
+                }
+                ?>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
   
