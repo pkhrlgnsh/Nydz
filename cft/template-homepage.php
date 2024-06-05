@@ -25,11 +25,11 @@ get_header() ?>
     color: black;
     text-size-adjust: 18px;
     border: solid;
-    border-radius: 1px;
+    border-radius: 0px;
     cursor: pointer;
   }
 
-  .btn_hov:hover {
+  .button_hov:hover {
     color: blue;
   }
 
