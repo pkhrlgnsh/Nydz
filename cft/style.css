@@ -11700,9 +11700,6 @@ section .section-secondary-title {
 .wpcf7-form p {
   margin-bottom: 20px;
 }
-.wpcf7-form{
-  padding: 12px 100px;
-}
 .wpcf7-form input[type="text"],
 .wpcf7-form input[type="email"],
 .wpcf7-form input[type="url"],
