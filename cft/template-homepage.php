@@ -16,18 +16,17 @@ get_header() ?>
         display: flex;
         align-items: flex-end;
         justify-content: center;
-             
+       
     }
-    .sidebar_padin{
+    .pags_container{
         padding-top: 40px;
     }
-    .post_captions{
+     .post_captions{
     background-color: #00000099;
 }
      .page_size{
      width: auto;
-     padding-top: 40px;
-}
+     }
         .banner_content_texts{
       display: flex;
       align-items: flex-end;
@@ -91,7 +90,7 @@ get_header() ?>
     </div>
 </section>
         <hr>
-        <div class="page-container">
+        <div class="page-container pags_container">
             <div class="page-content page_size">
                 
             <div class="card">
