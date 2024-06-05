@@ -43,8 +43,9 @@ get_header() ?>
     color: white !important;
   }
    .hov_col:hover{
-    color: white;
-   }
+    background-color: orange !important;
+    color: white !important;
+  }
     .cards_top{
         padding-top: 25px;
         padding-bottom: 25px;
