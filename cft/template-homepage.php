@@ -291,7 +291,7 @@ foreach ($tags as $tag) {
         ?>
                 <a href="<?php echo esc_url(get_permalink()); ?>" class="popular-post-item ">
                     <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" class="w-100" alt="">
-                    <div class="popular-post-caption" style="color: black; margin-bottom: 30px;">
+                    <div class="popular-post-caption" style="color: black; font: size 18px; margin-bottom: 30px;">
     <?php the_title(); ?>
 </div>
 
