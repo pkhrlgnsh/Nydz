@@ -21,14 +21,14 @@ get_header() ?>
     .button_hov
     {
     padding: 10px; /* Adjusted padding */
-    background-color: White !important;
+    background-color: blue !important;
     color: black;
     text-size-adjust: 18px;
     cursor: pointer;
   }
 
   .button_hov:hover {
-    background-color: blue !important;
+    background-color: orange !important;
     color: white;
   }
 
