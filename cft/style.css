@@ -11701,10 +11701,11 @@ section .section-secondary-title {
   margin-bottom: 20px;
 }
 .wpcf7-form-control{
-  padding-right: 100px;
-  padding-left: 100px;
+  padding: 12px 100px;
   padding-top: 12px;
+  padding-right: 100px;
   padding-bottom: 12px;
+  padding-left: 100px;
 }
 .wpcf7-form input[type="text"],
 .wpcf7-form input[type="email"],
