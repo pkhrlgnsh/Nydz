@@ -19,8 +19,12 @@ get_header() ?>
             
     }
     .cards_top{
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .side_bar{
+        padding-top: 30px;
+        padding-bottom: 30px; 
     }
     .post_captions{
     background-color: #00000099;
@@ -197,7 +201,7 @@ endif;
             </div>
 
             <!-- Sidebar -->
-            <div class="page-sidebar text-center">
+            <div class="page-sidebar text-center side_bar">
                 <h4 class="sidebar-title section-title mb-4 mt-3">About</h4>
                 <img src="https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/job-search-word-concepts-banner-vector-28884582.jpg" alt="" class="circle-100 mb-3">
                 <div class="socials mb-3 mt-2">
