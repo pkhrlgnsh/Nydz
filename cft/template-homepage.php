@@ -137,7 +137,7 @@ get_header() ?>
                 <div class="blog-media">
                     <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" alt="" class="card_image_content">
                                    </div>
-                <p class="my-3"><?php echo get_the_excerpt(); ?></p>
+                <h6 class="my-3"><?php echo get_the_excerpt(); ?></h6>
             </div>
             <div class="card-footer d-flex justify-content-between align-items-center flex-basis-0">
                 <button class="btn btn-primary circle-35 mr-4"><i class="ti-back-center"></i></button>
