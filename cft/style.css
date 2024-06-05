@@ -11691,7 +11691,7 @@ section .section-secondary-title {
 .wpcf7-form {
   max-width: 800px;
   margin: auto;
-  padding: 20px;
+  padding: 100px;
   background-color: whitesmoke !important;
   border: 2px solid #ccc;
 }
