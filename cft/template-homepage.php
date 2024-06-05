@@ -362,7 +362,7 @@ foreach ($tags as $tag) {
             <div class="col-md-4">
                 <div class="reason-box">
                     <i class="fas fa-tasks"></i>
-                    <h3 class="reason-title">Quality Jobs</h3>
+                    <h3 class="reason-title">Quality</h3>
                     <p class="reason-description">We offer a wide range of high-quality job opportunities in Europe.</p>
                 </div>
             </div>
@@ -376,7 +376,7 @@ foreach ($tags as $tag) {
             <div class="col-md-4">
                 <div class="reason-box">
                     <i class="fas fa-heart"></i>
-                    <h3 class="reason-title">Customer Satisfaction</h3>
+                    <h3 class="reason-title">Satisfaction</h3>
                     <p class="reason-description">We prioritize customer satisfaction and strive to meet your needs.</p>
                 </div>
             </div>
