@@ -23,6 +23,7 @@ get_header() ?>
 }
      .page_size{
      width: auto;
+     padding-top: 40px;
 }
         .banner_content_texts{
       display: flex;
@@ -34,14 +35,17 @@ get_header() ?>
       padding: 40px;
       margin-bottom: 0px;
     }
+    .banners_sections{
+        padding-bottom: 40px;
+    }
     .features_posts{
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
     .banner_content_say{
        color:white;
           }
     </style>
-<section class="banner-section" style="text-align: center;">
+<section class="banner-section banners_sections" style="text-align: center;">
     <div class="container-fluid banner_iomage_wraooper">
         <div class="column banner_content_text">
             <div class="col-12 banner_content_texts">
