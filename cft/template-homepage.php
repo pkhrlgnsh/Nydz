@@ -38,7 +38,7 @@ get_header() ?>
 
   .button_hov:hover {
     background-color: orange !important;
-    color: white;
+    color: white !important;
   }
 
     .cards_top{
