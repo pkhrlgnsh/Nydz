@@ -112,7 +112,7 @@ get_header() ?>
 </section>
     <div class="feature-posts features_posts">
     <a href="single-post.html" class="feature-post-item ">                       
-    <span style="font-size: 22px;">Featured Posts</span>
+    <span style="font-size: 22px;">Latest Posts</span>
 </a>
 
         <?php
