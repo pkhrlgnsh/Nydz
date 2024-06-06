@@ -22,6 +22,7 @@ get_header() ?>
         padding-top: 10px;
         padding-bottom: 10px;
         font-size: 14px;
+        color: black;
     }
 
     .button_hovs
