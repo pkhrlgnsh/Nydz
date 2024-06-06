@@ -28,12 +28,12 @@ get_header() ?>
     {
     padding: 10px;
     padding-bottom: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
     padding-top: 2px;
     background-color: #33A2FF !important;
     color: white;
-    font-size: 14x;
+    font-size: 12x;
     cursor: pointer;
     }
     .button_hovs:hover
