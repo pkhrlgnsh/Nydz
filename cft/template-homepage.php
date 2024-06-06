@@ -244,13 +244,13 @@ $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Wai
 ?>
 
 <h4 class="sidebar-title mt-5 mb-4">Tags</h4>
-<div class="widget hov_col">
+<div class="widget">
 <?php
 // Loop through the tags array and generate HTML for each tag
 foreach ($tags as $tag) {
     $tag_slug = strtolower(str_replace(' ', '-', $tag));
     // Generate the link
-    echo '<li><a href="https://stagingjobseurope.fungiwonders.com/jobs/' . $tag_slug . '" class="badge badge-pill badge-light">' . $tag . '</a></li>';
+    echo '<li><a href="https://stagingjobseurope.fungiwonders.com/jobs/' . $tag_slug . '" class="badge badge-pill badge-light  hov_col">' . $tag . '</a></li>';
 }
 
 ?>
