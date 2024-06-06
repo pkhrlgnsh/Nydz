@@ -245,8 +245,7 @@ $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Wai
 
 <h4 class="sidebar-title mt-5 mb-4">Tags</h4>
 <div class="widget button_hov">
-    <ul class="list-unstyled list-unstyled-border tagcloud text-left">
-<?php
+   <?php
 // Loop through the tags array and generate HTML for each tag
 foreach ($tags as $tag) {
     $tag_slug = strtolower(str_replace(' ', '-', $tag));
@@ -254,7 +253,7 @@ foreach ($tags as $tag) {
 }
 
 ?>
-</ul>
+
 </div>
 
 
