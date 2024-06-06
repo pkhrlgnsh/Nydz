@@ -24,6 +24,16 @@ get_header() ?>
         font-size: 14px;
     }
 
+    .button_hovs{
+    padding: 8px; /* Adjusted padding */
+    background-color: #33A2FF !important;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin: auto;
+    }
+    .button_hovs:hover{ background-color: orange !important;
+    color: white !important;}
     .button_hov
     {
     padding: 8px; /* Adjusted padding */
@@ -245,13 +255,13 @@ $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Wai
 
 <h4 class="sidebar-title mt-5 mb-4">Tags</h4>
 <div class="widget">
-    
+
 <?php
 // Loop through the tags array and generate HTML for each tag
 foreach ($tags as $tag) {
     $tag_slug = strtolower(str_replace(' ', '-', $tag));
     // Generate the link
-    echo '<a href="https://stagingjobseurope.fungiwonders.com/jobs/' . $tag_slug . '" class="badge badge-pill badge-light  button_hov">' . $tag . '</a>';
+    echo '<a href="https://stagingjobseurope.fungiwonders.com/jobs/' . $tag_slug . '" class="badge badge-pill badge-light  button_hovs">' . $tag . '</a>';
 }
 
 ?>
