@@ -246,12 +246,10 @@ endif;
             <!-- Sidebar -->
             <div class="page-sidebar text-center side_bar">
                 <h3 class="sidebar-title section-title mb-4 mt-3">About</h3>
-                <img src="https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/job-search-word-concepts-banner-vector-28884582.jpg" alt="" class="circle-100 mb-3   .text_posts">
+                <img src="https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/job-search-word-concepts-banner-vector-28884582.jpg" alt="" class="circle-100 mb-3 ">
                                 <p>Welcome to Jobs in Europe, where your career dreams come to life. Discover a world of opportunities tailored to your skills and ambitions. Whether you are starting afresh or looking to advance your realm, we are here to support your journey in every step.
-.</p>
-                
-
-                <h4 class="sidebar-title mt-5 mb-4">Subscribe Us To Get Newsletter</h4>
+                                </p>
+                                <h4 class="sidebar-title mt-5 mb-4">Subscribe Us To Get Newsletter</h4>
                 <form action="">
                     <div class="subscribe-wrapper">
                         <input type="email" class="form-control" placeholder="Email Address">
