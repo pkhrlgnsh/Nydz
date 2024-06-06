@@ -244,9 +244,24 @@ $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Wai
 ?>
 
 <h4 class="sidebar-title mt-5 mb-4">Tags</h4>
-
-
-
+<?php
+// Ensure that the WordPress environment is loaded
+if (have_posts()) :
+    while (have_posts()) : the_post(); ?>
+        <h1><?php the_title(); ?></h1>
+        <div><?php the_content(); ?></div>
+        
+        <?php
+        // Display the tags with links
+        $tag_list = get_the_tag_list('<ul class="post-tags"><li>', '</li><li>', '</li></ul>');
+        if ($tag_list) {
+            echo $tag_list;
+        }
+        ?>
+        
+    <?php endwhile;
+endif;
+?>
 <div class="row ">
     <div class="col-md-4">
         <h5 class="sidebar-title mt-5 mb-4">
