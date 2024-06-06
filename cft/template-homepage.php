@@ -212,7 +212,7 @@ if ($latest_post_query->have_posts()) :
                         <?php
                         $post_categories = get_the_category();
                         if (!empty($post_categories)) {
-                            echo '<a href="' . esc_url(get_category_link($post_categories[0]->term_id)) . '" class="badge badge-primary blog_titl_pds">' . esc_html($post_categories[0]->name) . '</a>';
+                            echo '<a href="' . esc_url(get_category_link($post_categories[0]->term_id)) . '" class="badge badge-primary blog_titl_pds">' . esc_html($post_categories[0]->latest) . '</a>';
                         }
                         ?>
                     </div>
