@@ -247,8 +247,17 @@ $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Wai
 
 <?php
 // Loop through the tags array and generate HTML for each tag
-foreach ($tags as $tag) {
-    echo '<a href="javascript:void(0)" class="badge badge-primary m-1 p-2 hov_col">' . $tag . '</a>';
+// Get the tags for the current post
+$tags = get_the_tags();
+
+// Check if there are tags
+if ($tags) {
+    foreach ($tags as $tag) {
+        // Get the tag link
+        $tag_link = get_tag_link($tag->term_id);
+        // Display the tag with link
+        echo '<a href="' . esc_url($tag_link) . '" class="badge badge-primary m-1 p-2 hov_col">' . esc_html($tag->name) . '</a>';
+    }
 }
 ?>
 
