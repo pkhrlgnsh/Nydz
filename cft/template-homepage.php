@@ -26,7 +26,8 @@ get_header() ?>
 
     .button_hovs
     {
-    padding: 20px;
+    padding:20px;
+    padding-block: 10px;
     padding-bottom: 2px;
     padding-left: 3px;
     padding-right: 3px;
