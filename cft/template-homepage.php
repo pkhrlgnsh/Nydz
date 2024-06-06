@@ -209,7 +209,7 @@ if ($latest_post_query->have_posts()) :
                 <div class="card-header p-0">
                     <div class="blog-media blog_titl_pd">
                         <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" alt="" class="w-100">
-                        <p class="badge badge-primary blog_titl_pds">latest</p>
+                        <p class="badge badge-primary blog_titl_pds">Latest</p>
                     </div>
                 </div>
                 <div class="card-body px-0">
