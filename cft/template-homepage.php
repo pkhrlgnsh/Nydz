@@ -28,14 +28,9 @@ get_header() ?>
     {
     padding: 8px 20px;
     margin: 5px;
-    padding-block: 10px;
-    padding-bottom: 2px;
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-top: 2px;
     background-color: #33A2FF !important;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     cursor: pointer;
     }
     .button_hovs:hover
