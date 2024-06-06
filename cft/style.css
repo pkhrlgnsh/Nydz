@@ -11143,7 +11143,7 @@ hr {
   margin: auto;
   width: 80%;
   height: 40px;
-  background: #000000;
+  background: #00000099;
   padding: 5px;
   text-align: center;
   font-weight: 600;
@@ -11153,7 +11153,7 @@ hr {
   color: #ffffff;
 }
 
-.feature-posts .feature-post-item:hover .feature-post-caption {
+.feature-posts .feature-post-item .feature-post-caption {
   opacity:1;
 }
 
