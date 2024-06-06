@@ -253,7 +253,7 @@ foreach ($tags as $tag) {
         foreach ($tags as $tag)
         $tag_link = get_tag_link($tag->term_id);
     }
-    echo '<a href="'.esc_url ($tag_link). '"class="badge badge-primary m-1 p-2 hov_col">' . $tag . '</a>';
+    echo '<a href="'.esc_url ($tag_link). '"class="badge badge-primary m-1 p-2 hov_col">' . esc_html($tag->name) . '</a>';
 
 }
 
