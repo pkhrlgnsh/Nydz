@@ -56,7 +56,12 @@ get_header() ?>
         padding-bottom: 10px;
     
     }
-
+    .blog_titl_pds{
+        padding: 2px;
+        background-color: #33A2FF;
+        color: white;
+        font-size: 12px;
+    }
   .button_hov:hover {
     background-color: orange !important;
     color: white !important;
@@ -202,12 +207,12 @@ if ($latest_post_query->have_posts()) :
         <div class="col-lg-6">
             <div class="card text-center mb-5">
                 <div class="card-header p-0">
-                    <div class="blog-media">
+                    <div class="blog-media blog_titl_pd">
                         <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" alt="" class="w-100">
                         <?php
                         $post_categories = get_the_category();
                         if (!empty($post_categories)) {
-                            echo '<a href="' . esc_url(get_category_link($post_categories[0]->term_id)) . '" class="badge badge-primary">' . esc_html($post_categories[0]->name) . '</a>';
+                            echo '<a href="' . esc_url(get_category_link($post_categories[0]->term_id)) . '" class="badge badge-primary blog_titl_pds">' . esc_html($post_categories[0]->name) . '</a>';
                         }
                         ?>
                     </div>
