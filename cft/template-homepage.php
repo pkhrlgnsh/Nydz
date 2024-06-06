@@ -219,7 +219,7 @@ endif;
             </div>
 
             <!-- Sidebar -->
-            <div class="page-sidebar text-center side_bar">
+            < class="page-sidebar text-center side_bar">
                 <h3 class="sidebar-title section-title mb-4 mt-3">About</h3>
                 <img src="https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/job-search-word-concepts-banner-vector-28884582.jpg" alt="" class="circle-100 mb-3">
                 <div class="socials mb-3 mt-2">
@@ -239,27 +239,24 @@ endif;
                 </form>
 
                 <?php
-// Array of tags
-$tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Waiter & Waitress Jobs", "Care Giver Jobs");
-?>
+        // Array of tags
+        $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Waiter & Waitress Jobs", "Care Giver Jobs");
+        ?>
 
-<h4 class="sidebar-title mt-5 mb-4">Tags</h4>
-
-<?php
-// Loop through the tags array and generate HTML for each tag
-foreach ($tags as $tag) {
-    $tags = get_the_tags();
-    if ($tags){
-        foreach ($tags as $tag)
-        $tag_link = get_tag_link($tag->term_id);
-    }
-    echo '<a href="'. esc_url ($tag_link) . '"class="badge badge-primary m-1 p-2 hov_col">' . $tag . '</a>';
-
-}
-
-?>
-
-                <div class="row ">
+        <h4 class="sidebar-title mt-5 mb-4">Hot Tags</h4>
+        <div class="widget">
+            <ul class="list-unstyled list-unstyled-border tagcloud text-left">
+                <?php
+                foreach ($tags as $tag) {
+                    // Replace spaces with hyphens and convert to lowercase for the URL slug
+                    $tag_slug = strtolower(str_replace(' ', '-', $tag));
+                    // Generate the link
+                    echo '<li><a href="https://stagingjobseurope.fungiwonders.com/jobs/' . $tag_slug . '" class="badge badge-pill badge-light">' . $tag . '</a></li>';
+                }
+                ?>
+            </ul>
+        </div>
+        <div class="row ">
     <div class="col-md-4">
         <h5 class="sidebar-title mt-5 mb-4">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="blue" class="bi bi-facebook" viewBox="0 0 20 20">
