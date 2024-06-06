@@ -24,16 +24,19 @@ get_header() ?>
         font-size: 14px;
     }
 
-    .button_hovs{
+    .button_hovs
+    {
     padding: 8px; /* Adjusted padding */
     background-color: #33A2FF !important;
     color: white;
     font-size: 14px;
     cursor: pointer;
-    margin: auto;
     }
-    .button_hovs:hover{ background-color: orange !important;
-    color: white !important;}
+    .button_hovs:hover
+    {
+    background-color: orange !important;
+    color: white !important;
+    }
     .button_hov
     {
     padding: 8px; /* Adjusted padding */
@@ -42,7 +45,7 @@ get_header() ?>
     font-size: 14px;
     cursor: pointer;
     margin: auto;
-  }
+    }
     .blog_titl_pd{
         padding-top: 10px;
         padding-bottom: 10px;
