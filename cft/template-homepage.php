@@ -58,8 +58,8 @@ get_header() ?>
     }
     .blog_titl_pds{
         padding: 8px;
-        background-color: orange;
-        color: white;
+        background-color: orange !important;
+        color: white !important;
         font-size: 12px;
     }
   .button_hov:hover {
