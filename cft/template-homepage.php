@@ -95,7 +95,7 @@ get_header() ?>
       background-color: #00000099;
       color: #ffff;
       justify-content: center;
-      padding: 40px;
+      padding: 45px;
       margin-bottom: 0px;
     }
     .banners_sections{
