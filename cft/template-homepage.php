@@ -24,7 +24,19 @@ get_header() ?>
         font-size: 14px;
     }
 
-        .button_hovs:hover
+    .button_hovs
+    {
+    padding-block: 20px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    background-color: #33A2FF !important;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    }
+    .button_hovs:hover
     {
     background-color: orange !important;
     color: white !important;
