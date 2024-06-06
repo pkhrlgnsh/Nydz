@@ -20,19 +20,20 @@ get_header() ?>
     }
     .text_post{
         padding-top: 10px;
-        padding-bottom: px;
+        padding-bottom: 10px;
         font-size: 14px;
     }
 
     .button_hovs
     {
-    padding: 20px;
+    padding: 15px;
     padding-bottom: 2px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
     padding-top: 2px;
     background-color: #33A2FF !important;
     color: white;
+    font-size: 14px;
     cursor: pointer;
     }
     .button_hovs:hover
