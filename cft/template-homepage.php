@@ -247,7 +247,7 @@ $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Wai
 
 <?php
 // Loop through the tags array and generate HTML for each tag
-foreach ($tags as $tag) {
+foreach ($tags as $tags) {
     $tags = get_the_tags();
     if ($tags){
         foreach ($tags as $tag)
