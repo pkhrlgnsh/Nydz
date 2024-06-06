@@ -245,14 +245,9 @@ $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Wai
 
 <h4 class="sidebar-title mt-5 mb-4">Tags</h4>
 
-<?php
-// Loop through the tags array and generate HTML for each tag
-foreach ($tags as $tag) {
-    echo '<a href="javascript:void(0)" class="badge badge-primary m-1 p-2 hov_col">' . $tag . '</a>';
-}
-?>
 
-                <div class="row ">
+
+<div class="row ">
     <div class="col-md-4">
         <h5 class="sidebar-title mt-5 mb-4">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="blue" class="bi bi-facebook" viewBox="0 0 20 20">
