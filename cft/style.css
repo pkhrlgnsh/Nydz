@@ -11153,7 +11153,7 @@ hr {
   color: #ffffff;
 }
 
-.feature-posts .feature-post-item .feature-post-caption {
+.feature-posts .feature-post-item:hover .feature-post-caption {
   opacity:1;
 }
 

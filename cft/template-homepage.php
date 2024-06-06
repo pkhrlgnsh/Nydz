@@ -8,7 +8,7 @@ get_header() ?>
     .banner_iomage_wraooper { 
         background-image: url('https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/job-search-word-concepts-banner-vector-28884582.jpg'); 
         background-size: ; 
-        height: 45rem;
+        height: 40rem;
         display: flex;
         justify-content: center;
     }
@@ -118,7 +118,7 @@ get_header() ?>
     </div>
 </section>
     <div class="feature-posts features_posts">
-    <a href="single-post.html" class="feature-post-item text_posts">                       
+    <a href="single-post.html" class="feature-post-item">                       
     <span style="font-size: 22px;">Featured Posts</span>
 </a>
 
