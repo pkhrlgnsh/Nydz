@@ -57,7 +57,7 @@ get_header() ?>
     
     }
     .blog_titl_pds{
-        padding: 5px;
+        padding: 10px;
         background-color: #33A2FF;
         color: white;
         font-size: 12px;
