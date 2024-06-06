@@ -7,7 +7,7 @@ get_header() ?>
 <style>
     .banner_iomage_wraooper { 
         background-image: url('https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/job-search-word-concepts-banner-vector-28884582.jpg'); 
-        background-size: f; 
+        background-size: 40px; 
         height: 35rem;
         display: flex;
         justify-content: center;
