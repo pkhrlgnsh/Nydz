@@ -33,7 +33,6 @@ get_header() ?>
     padding-top: 2px;
     background-color: #33A2FF !important;
     color: white;
-    font-size: 14x;
     cursor: pointer;
     }
     .button_hovs:hover
