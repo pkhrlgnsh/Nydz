@@ -62,6 +62,10 @@ get_header() ?>
         color: white;
         font-size: 12px;
     }
+    .blog_titl_pds{
+        background-color: orange !important;
+    color: white !important;
+    }
   .button_hov:hover {
     background-color: orange !important;
     color: white !important;
