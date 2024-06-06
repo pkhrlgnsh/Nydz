@@ -28,8 +28,8 @@ get_header() ?>
     {
     padding: 15px;
     padding-bottom: 2px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
     padding-top: 2px;
     background-color: #33A2FF !important;
     color: white;
