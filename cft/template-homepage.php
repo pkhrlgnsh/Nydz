@@ -56,6 +56,9 @@ get_header() ?>
         padding-bottom: 10px;
     
     }
+    .blog_titl_pd:hover{
+        color: #33A2FF !important
+    }
     .blog_titl_pds{
         padding: 8px;
         background-color: orange !important;
