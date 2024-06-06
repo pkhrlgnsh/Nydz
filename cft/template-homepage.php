@@ -26,14 +26,14 @@ get_header() ?>
 
     .button_hovs
     {
-    padding: 8px;
+    padding: 10px;
     padding-bottom: 2px;
     padding-left: 2px;
     padding-right: 2px;
     padding-top: 2px;
     background-color: #33A2FF !important;
     color: white;
-    font-size: 12x;
+    font-size: 14x;
     cursor: pointer;
     }
     .button_hovs:hover
