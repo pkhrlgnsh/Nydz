@@ -239,31 +239,25 @@ endif;
                 </form>
 
                 <?php
-
+// Array of tags
 $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Waiter & Waitress Jobs", "Care Giver Jobs");
+?>
+
 <h4 class="sidebar-title mt-5 mb-4">Tags</h4>
 
 <?php
 // Loop through the tags array and generate HTML for each tag
-foreach ($tags as $tag_name) {
-    // Get the tag object by name
-    $tag = get_term_by('name', $tag_name, 'post_tag');
-
-    // Check if the tag exists
-    if ($tag) {
-        // Get the tag link
+foreach ($tags as $tag) {
+    $tags = get_the_tags();
+    if ($tags){
+        foreach ($tags as $tag)
         $tag_link = get_tag_link($tag->term_id);
-        
-        // Display the tag with link
-        echo '<a href="' . esc_url($tag_link) . '" class="badge badge-primary m-1 p-2 hov_col">' . esc_html($tag_name) . '</a>';
-    } else {
-        // If the tag does not exist, just display the tag name without a link
-        echo '<span class="badge badge-primary m-1 p-2 hov_col">' . esc_html($tag_name) . '</span>';
     }
+   echo '<a href="' . esc_url($tag_link) . '"class="badge badge-primary m-1 p-2 hov_col">' . $tag . '</a>';
+
 }
+
 ?>
-
-
                 <div class="row ">
     <div class="col-md-4">
         <h5 class="sidebar-title mt-5 mb-4">
