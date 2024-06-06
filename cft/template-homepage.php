@@ -56,7 +56,7 @@ get_header() ?>
     
     }
     .blog_titl_pds{
-        padding:5px;
+        padding:2px;
     }
   .button_hov:hover {
     background-color: orange !important;
