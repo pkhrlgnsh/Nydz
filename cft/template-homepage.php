@@ -27,10 +27,10 @@ get_header() ?>
     .button_hovs
     {
     padding: 20px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
     background-color: #33A2FF !important;
     color: white;
     font-size: 12px;
