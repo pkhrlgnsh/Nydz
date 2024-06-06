@@ -247,11 +247,7 @@ endif;
             <div class="page-sidebar text-center side_bar">
                 <h3 class="sidebar-title section-title mb-4 mt-3">About</h3>
                 <img src="https://stagingjobseurope.fungiwonders.com/wp-content/uploads/2024/06/job-search-word-concepts-banner-vector-28884582.jpg" alt="" class="circle-100 mb-3">
-                <div class="socials mb-3 mt-2">
-                    <a href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                    <a href="javascript:void(0)"><i class="ti-twitter"></i></a>
-                                   </div>
-                <p>Welcome to Jobs in Europe, where your career dreams come to life. Discover a world of opportunities tailored to your skills and ambitions. Whether you are starting afresh or looking to advance your realm, we are here to support your journey in every step.
+                                <p>Welcome to Jobs in Europe, where your career dreams come to life. Discover a world of opportunities tailored to your skills and ambitions. Whether you are starting afresh or looking to advance your realm, we are here to support your journey in every step.
 .</p>
                 
 
