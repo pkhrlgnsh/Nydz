@@ -29,7 +29,7 @@ get_header() ?>
     padding: 10px; /* Adjusted padding */
     background-color: #33A2FF !important;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     margin: auto;
   }
