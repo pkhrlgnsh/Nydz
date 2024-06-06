@@ -211,8 +211,9 @@ if ($latest_post_query->have_posts()) :
                         <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" alt="" class="w-100">
                         <?php
                         $post_categories = get_the_category();
-                        if (!empty($post_categories)) 
-                            echo '<a href="' . esc_url(get_category_link($post_categories[0]->term_id)) . '" <p class="badge badge-primary blog_titl_pds"> Latest</p>}
+                        if (!empty($post_categories)) {
+                            echo '<a href="' . esc_url(get_category_link($post_categories[0]->term_id)) . '" class="badge badge-primary blog_titl_pds">' . esc_html($post_categories[0]->name) . '</a>';
+                        }
                         ?>
                     </div>
                 </div>
