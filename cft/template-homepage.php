@@ -275,7 +275,7 @@ $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Wai
 foreach ($tags as $tag) {
     $tag_slug = strtolower(str_replace(' ', '-', $tag));
     // Generate the link
-    echo '<a href="https://stagingjobseurope.fungiwonders.com/jobs/' . $tag_slug . '" class="badge badge-pill badge-light  button_hovs">' . $tag . '</a>';
+    echo '<a href="https://https://jobsineurope.fungiwonders.com/posts/' . $tag_slug . '" class="badge badge-pill badge-light  button_hovs">' . $tag . '</a>';
 }
 
 ?>
