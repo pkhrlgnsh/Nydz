@@ -104,6 +104,7 @@ get_header() ?>
     }
     .features_posts{
         padding-bottom: 20px;
+        align-items: center;
     }
     .banner_content_say{
        color:white;
