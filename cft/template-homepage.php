@@ -275,7 +275,7 @@ $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Wai
 foreach ($tags as $tag) {
     $tag_slug = strtolower(str_replace(' ', '-', $tag));
     // Generate the link
-    echo '<a href="https://https://jobsineurope.fungiwonders.com/posts/' . $tag_slug . '" class="badge badge-pill badge-light  button_hovs">' . $tag . '</a>';
+    echo '<a href="https://jobsineurope.fungiwonders.com/posts/' . $tag_slug . '" class="badge badge-pill badge-light  button_hovs">' . $tag . '</a>';
 }
 
 ?>
@@ -327,9 +327,9 @@ foreach ($tags as $tag) {
         ?>
                 <a href="<?php echo esc_url(get_permalink()); ?>" class="popular-post-item ">
                     <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" class="w-100" alt="">
-                    <h4 class="popular-post-caption blog_titl_pd" style="color: black; margin-bottom: 30px;">
+                    <h5 class="popular-post-caption blog_titl_pd" style="color: black; margin-bottom: 30px;">
     <?php the_title(); ?>
-</h4>
+</h5>
 
 
             </a>
