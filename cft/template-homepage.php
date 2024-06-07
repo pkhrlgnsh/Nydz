@@ -119,7 +119,7 @@ get_header() ?>
     </div>
 </section>
     <div class="feature-posts features_posts">
-    <a href="single-post.html" class="feature-post-item">                       
+       
     <span style="font-size: 22px;">Featured Posts</span>
 </a>
 
