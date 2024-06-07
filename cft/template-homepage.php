@@ -271,7 +271,7 @@ endif;
                 </form>
                 <?php
 // Get the tags of the current post
-$post_tags = get_the_tags();
+echo $post_tags = get_the_tags();
 
 // Limit the number of tags to 6
 if ($post_tags) {
@@ -291,7 +291,7 @@ if ($post_tags) {
 
                 <?php
 // Array of tags
-$tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Waiter & Waitress Jobs", "Care Giver Jobs");
+// $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Waiter & Waitress Jobs", "Care Giver Jobs");
 ?>
 
 <h4 class="sidebar-title mt-5 mb-4">Tags</h4>
@@ -299,11 +299,11 @@ $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Wai
 
 <?php
 // Loop through the tags array and generate HTML for each tag
-foreach ($tags as $tag) {
-    $tag_slug = strtolower(str_replace(' ', '-', $tag));
-    // Generate the link
-    echo '<a href="https://jobsineurope.fungiwonders.com/posts/' . $tag_slug . '" class="badge badge-pill badge-light  button_hovs">' . $tag . '</a>';
-}
+// foreach ($tags as $tag) {
+//     $tag_slug = strtolower(str_replace(' ', '-', $tag));
+//     // Generate the link
+//     echo '<a href="https://jobsineurope.fungiwonders.com/posts/' . $tag_slug . '" class="badge badge-pill badge-light  button_hovs">' . $tag . '</a>';
+// }
 
 ?>
                 <div class="row ">
