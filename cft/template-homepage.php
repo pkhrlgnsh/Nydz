@@ -328,7 +328,8 @@ foreach ($tags as $tag) {
         ?>
                 <a href="<?php echo esc_url(get_permalink()); ?>" class="popular-post-item ">
                     <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" class="w-100" alt="">
-                    <h5 class="popular-post-caption blog_titl_pd" style="color: black; margin-bottom: 30px;">
+                    <a href="#" class="popular-post-caption blog_titl_pd"><p style="font-size: 24px;">Your Text Here</p></a>
+
     <?php the_title(); ?>
 </h5>
 
