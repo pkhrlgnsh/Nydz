@@ -120,7 +120,7 @@ get_header() ?>
 </section>
     <div class="feature-posts features_posts">
        
-    <h4>Featured Posts</h4>
+    <h4>Featured <br>Posts</h4>
 </a>
 
         <?php
