@@ -62,9 +62,12 @@ get_header() ?>
     
     a.blog_titl_pd >p:hover{
         color: #33A2FF !important
-        
+               
     }
-    .blog_titl_pds{
+    .blog_titl_pdd:hover
+    {    color: #33A2FF !important
+    }
+        .blog_titl_pds{
         padding: 8px;
         background-color: orange !important;
         color: white !important;
@@ -328,9 +331,9 @@ foreach ($tags as $tag) {
         ?>
                 <a href="<?php echo esc_url(get_permalink()); ?>" class="popular-post-item ">
                     <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" class="w-100" alt="">
-                    <h class="popular-post-caption blog_titl_pd" style="color: black; margin-bottom: 30px;">
+                    <h5 class="popular-post-caption blog_titl_pdd" style="color: black; margin-bottom: 30px;">
     <?php the_title(); ?>
-</h>
+</h5>
 
 
             </a>
