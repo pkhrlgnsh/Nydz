@@ -140,7 +140,8 @@ get_header() ?>
         ?>
                 <a href="<?php echo esc_url(get_permalink()); ?>" class="feature-post-item">
                     <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" class="w-100" alt="">
-                    <div class="feature-post-caption post_captions"><?php the_title(); ?></div>
+                    <h5 class="feature-post-caption post_captions"><?php the_title(); ?></h5>
+
                 </a>
         <?php
             endwhile;
