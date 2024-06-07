@@ -64,6 +64,10 @@ get_header() ?>
         color: #33A2FF !important
                
     }
+    .blog_titl_pdd{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
     .blog_titl_pdd:hover
     {    color: #33A2FF !important
     }
