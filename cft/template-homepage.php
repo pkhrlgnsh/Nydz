@@ -282,12 +282,7 @@ if ($post_tags) {
         }
         $tag_link = get_tag_link($tag->term_id);
 ?>
-        <a href="<?php echo esc_url($tag_link); ?>" class="tag"><?php echo esc_html($tag->name); ?></a>
-<?php
-        $tag_count++;
-    }
-}
-?>
+       
 
                 <?php
 // Array of tags
@@ -296,7 +291,12 @@ if ($post_tags) {
 
 <h4 class="sidebar-title mt-5 mb-4">Tags</h4>
 <div class="widget">
-
+<a href="<?php echo esc_url($tag_link); ?>" class="badge badge-pill badge-light  button_hovs"><?php echo esc_html($tag->name); ?></a>
+<?php
+        $tag_count++;
+    }
+}
+?>
 <?php
 // Loop through the tags array and generate HTML for each tag
 // foreach ($tags as $tag) {
