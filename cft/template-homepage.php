@@ -271,8 +271,23 @@ endif;
                 </form>
 
                 <?php
-// Array of tags
-$tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Waiter & Waitress Jobs", "Care Giver Jobs");
+// Get the tags of the current post
+$post_tags = get_the_tags();
+
+// Limit the number of tags to 6
+if ($post_tags) {
+    $tag_count = 0; // Counter to track the number of tags displayed
+    foreach ($post_tags as $tag) {
+        if ($tag_count >= 6) {
+            break; // Break the loop if 6 tags have been displayed
+        }
+        $tag_link = get_tag_link($tag->term_id);
+?>
+        <a href="<?php echo esc_url($tag_link); ?>" class="tag"><?php echo esc_html($tag->name); ?></a>
+<?php
+        $tag_count++;
+    }
+}
 ?>
 
 <h4 class="sidebar-title mt-5 mb-4">Tags</h4>
