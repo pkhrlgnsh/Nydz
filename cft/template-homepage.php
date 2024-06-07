@@ -325,11 +325,11 @@ foreach ($tags as $tag) {
         ?>
                 <a href="<?php echo esc_url(get_permalink()); ?>" class="popular-post-item ">
                     <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" class="w-100" alt="">
-                    <div class="popular-post-caption blog_titl_pd" style="color: black; font-size: 18px; margin-bottom: 30px;">
+                    <p class="popular-post-caption blog_titl_pd" style="color: black; font-size: 24px; margin-bottom: 30px; font-weight: bold;">
     <?php the_title(); ?>
-</div>
+</p>
 
-                </a>
+            </a>
         <?php
             endwhile;
             wp_reset_postdata(); // Reset Post Data
