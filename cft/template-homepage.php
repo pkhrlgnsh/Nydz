@@ -221,7 +221,7 @@ if ($latest_post_query->have_posts()) :
                     </div>
                 </div>
                 <div class="card-body px-0">
-                    <h3 class="card-title mb-2 blog_titl_pd"><?php the_title(); ?></h3>
+                    <h4 class="card-title mb-2 blog_titl_pd"><?php the_title(); ?></h4>
                     <p class="my-2 text_posts"><?php echo get_the_excerpt(); ?></p>
                 </div>
                 <div class="card-footer p-0 text-center">
