@@ -99,7 +99,7 @@ get_header() ?>
       margin-bottom: 0px;
     }
     .banners_sections{
-        padding-bottom: 0px;
+        padding-bottom: 30px;
         padding-top: 20px;
     }
     .features_posts{
