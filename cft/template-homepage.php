@@ -58,10 +58,11 @@ get_header() ?>
     .blog_titl_pd{
         padding-top: 10px;
         padding-bottom: 10px;
+        }
     
-    }
-    .blog_titl_pd:hover{
+    .blog_titl_pd>a:hover{
         color: #33A2FF !important
+        
     }
     .blog_titl_pds{
         padding: 8px;
