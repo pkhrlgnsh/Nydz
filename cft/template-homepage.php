@@ -271,7 +271,7 @@ endif;
                 </form>
                 <?php
 // Get the tags of the current post
-echo $post_tags = get_the_tags();
+echo $post_tags = get_tags();
 
 // Limit the number of tags to 6
 if ($post_tags) {
