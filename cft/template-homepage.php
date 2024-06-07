@@ -274,7 +274,7 @@ endif;
 <div class="widget"></div>
                 <?php
 // Get the tags of the current post
-echo $post_tags = get_tags();
+$post_tags = get_tags();
 
 // Limit the number of tags to 6
 if ($post_tags) {
