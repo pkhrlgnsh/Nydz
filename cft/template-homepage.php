@@ -78,12 +78,12 @@ get_header() ?>
     color: white !important;
   }
     .cards_top{
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .side_bar{
-        padding-top: 25px;
-        padding-bottom: 25px; 
+        padding-top: 10px;
+        padding-bottom: 10px; 
     }
     .post_captions{
     background-color: #00000099;
