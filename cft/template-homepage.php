@@ -104,11 +104,8 @@ get_header() ?>
     }
     .features_posts{
         padding-bottom: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
     }
+    
     .banner_content_say{
        color:white;
           }
