@@ -289,19 +289,6 @@ if ($post_tags) {
     }
 }
 ?>
-
-<h4 class="sidebar-title mt-5 mb-4">Tags</h4>
-<div class="widget">
-
-<?php
-// Loop through the tags array and generate HTML for each tag
-foreach ($tags as $tag) {
-    $tag_slug = strtolower(str_replace(' ', '-', $tag));
-    // Generate the link
-    echo '<a href="https://jobsineurope.fungiwonders.com/posts/' . $tag_slug . '" class="badge badge-pill badge-light  button_hovs">' . $tag . '</a>';
-}
-
-?>
                 <div class="row ">
     <div class="col-md-4">
         <h5 class="sidebar-title mt-5 mb-4">
