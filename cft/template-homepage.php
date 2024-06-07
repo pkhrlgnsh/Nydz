@@ -86,7 +86,7 @@ get_header() ?>
         padding-bottom: 10px; 
     }
     .post_captions{
-        font-size: 18px !important;
+        font-size: 13px !important;
       background-color: #00000099;
 }
     .banner_content_texts{
