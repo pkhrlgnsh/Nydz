@@ -103,7 +103,7 @@ get_header() ?>
         padding-top: 20px;
     }
     .features_posts{
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
     .banner_content_say{
        color:white;
