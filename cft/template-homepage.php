@@ -373,7 +373,7 @@ foreach ($tags as $tag) {
                                 </a>
                             </div>
                             <div class="blog-content">
-                                <h3 class="blog-title blog_titl_pd"><a href="<?php the_permalink(); ?>" style="color: black;"><?php the_title(); ?></a></h3>
+                                <h4 class="blog-title blog_titl_pd"><a href="<?php the_permalink(); ?>" style="color: black;"><?php the_title(); ?></a></h4>
                                 <p class="blog-excerpt text_posts" style="color: black;"><?php echo get_the_excerpt(); ?></p>
                                 <a href="<?php the_permalink(); ?>" class="read-more button_hov">Read More</a>
                             </div>
