@@ -269,6 +269,9 @@ endif;
                         <button type="submit" class="btn btn-primary"><i class="ti-location-arrow"></i></button>
                     </div>
                 </form>
+                
+<h4 class="sidebar-title mt-5 mb-4">Tags</h4>
+<div class="widget"></div>
                 <?php
 // Get the tags of the current post
 echo $post_tags = get_tags();
@@ -289,8 +292,6 @@ if ($post_tags) {
 // $tags = array("Light Driver Jobs", "Heavy Driver Jobs", "Agriculture Jobs", "Waiter & Waitress Jobs", "Care Giver Jobs");
 ?>
 
-<h4 class="sidebar-title mt-5 mb-4">Tags</h4>
-<div class="widget">
 <a href="<?php echo esc_url($tag_link); ?>" class="badge badge-pill badge-light  button_hovs"><?php echo esc_html($tag->name); ?></a>
 <?php
         $tag_count++;
