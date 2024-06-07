@@ -86,6 +86,8 @@ get_header() ?>
         padding-bottom: 10px; 
     }
     .post_captions{
+        font-size: 18px;
+    font-weight: bold;
     background-color: #00000099;
 }
     .banner_content_texts{
@@ -140,7 +142,7 @@ get_header() ?>
         ?>
                 <a href="<?php echo esc_url(get_permalink()); ?>" class="feature-post-item">
                     <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>" class="w-100" alt="">
-                    <h5 class="feature-post-caption post_captions"><?php the_title(); ?></h5>
+                    <p class="feature-post-caption post_captions"><?php the_title(); ?></p>
 
                 </a>
         <?php
