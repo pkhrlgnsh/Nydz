@@ -336,9 +336,9 @@ foreach ($tags as $tag) {
         endif;
         ?>
     </div>
-                <div class="ad-card d-flex text-center align-items-center justify-content-center">
+                <!-- <div class="ad-card d-flex text-center align-items-center justify-content-center">
                     <span href="#" class="font-weight-bold">ADS</span>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
