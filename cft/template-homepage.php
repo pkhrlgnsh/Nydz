@@ -60,7 +60,7 @@ get_header() ?>
         padding-bottom: 10px;
         }
     
-    .blog_titl_pd a:hover{
+    a.blog_titl_pd >p:hover{
         color: #33A2FF !important
         
     }
