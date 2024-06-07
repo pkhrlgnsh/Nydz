@@ -119,7 +119,7 @@ get_header() ?>
         </div>
     </div>
 </section>
-<div class="feature-posts features_posts justify-content-center">
+<div class="feature-posts features_posts ">
     <h4>Featured Posts</h4>
 </div>
 </a>
