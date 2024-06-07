@@ -104,6 +104,10 @@ get_header() ?>
     }
     .features_posts{
         padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
     }
     .banner_content_say{
        color:white;
@@ -118,9 +122,9 @@ get_header() ?>
         </div>
     </div>
 </section>
-    <div class="feature-posts features_posts">
-       
-    <h4>Featured <br>Posts</h4>
+<div class="feature-posts features_posts d-flex align-items-center justify-content-center">
+    <h4>Featured Posts</h4>
+</div>
 </a>
 
         <?php
