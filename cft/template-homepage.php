@@ -99,11 +99,11 @@ get_header() ?>
       margin-bottom: 0px;
     }
     .banners_sections{
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-top: 30px;
     }
     .features_posts{
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
     .banner_content_say{
        color:white;
