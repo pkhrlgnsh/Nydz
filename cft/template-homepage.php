@@ -82,7 +82,7 @@ get_header() ?>
         padding-bottom: 10px;
     }
     .side_bar{
-        padding-top: 10px;
+        padding-top: 5px;
         padding-bottom: 10px; 
     }
     .post_captions{
