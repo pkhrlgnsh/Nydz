@@ -78,7 +78,7 @@ get_header() ?>
     color: white !important;
   }
     .cards_top{
-        padding-top: 10px;
+        padding-top: 5px;
         padding-bottom: 10px;
     }
     .side_bar{
