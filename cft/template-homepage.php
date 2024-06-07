@@ -269,6 +269,25 @@ endif;
                         <button type="submit" class="btn btn-primary"><i class="ti-location-arrow"></i></button>
                     </div>
                 </form>
+                <?php
+// Get the tags of the current post
+$post_tags = get_the_tags();
+
+// Limit the number of tags to 6
+if ($post_tags) {
+    $tag_count = 0; // Counter to track the number of tags displayed
+    foreach ($post_tags as $tag) {
+        if ($tag_count >= 6) {
+            break; // Break the loop if 6 tags have been displayed
+        }
+        $tag_link = get_tag_link($tag->term_id);
+?>
+        <a href="<?php echo esc_url($tag_link); ?>" class="tag"><?php echo esc_html($tag->name); ?></a>
+<?php
+        $tag_count++;
+    }
+}
+?>
 
                 <?php
 // Array of tags
