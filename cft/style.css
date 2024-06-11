@@ -11651,10 +11651,6 @@ section .section-secondary-title {
     opacity: .7;
   margin-bottom: 15px;
 }
-.ast-container
-{
-  display: block !important;
-}
 
 /* Container for the form */
 .wpcf7-form {
